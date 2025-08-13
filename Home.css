@@ -1,0 +1,32 @@
+.home{
+  display: flex;
+  justify-content: center;
+  gap: 11rem;
+}
+
+
+.home-up h2{
+  color: var(--Dark-Blue);
+  font-size: 45px;
+  font-weight: 400;
+  padding-top: 11rem;
+}
+
+.home-up p{
+  color: var(--Grayish-Blue);
+  padding: 20px 0;
+  line-height: 1.5;
+}
+
+.home-down img {
+  background: url(../../../public/images/bg-intro-desktop.svg);
+  width: 600px;
+}
+
+@media (max-width:600px) {
+  .home{
+    flex-direction: column-reverse;
+    gap: 1rem;
+    text-align: center;
+  }
+}
